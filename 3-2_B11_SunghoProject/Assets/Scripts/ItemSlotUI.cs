@@ -12,9 +12,6 @@ public class ItemSlotUI : MonoBehaviour
 	public GameObject equipVal;
 	public ItemData itemData;
 	public int index;
-	
-
-
 
 	public void EquipClick()
 	{

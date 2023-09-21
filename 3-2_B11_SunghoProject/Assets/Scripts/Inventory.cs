@@ -69,4 +69,5 @@ public class Inventory : MonoBehaviour
 		equipUI.SetActive(false);
 		unEquipUI.SetActive(false);
 	}
+
 }
