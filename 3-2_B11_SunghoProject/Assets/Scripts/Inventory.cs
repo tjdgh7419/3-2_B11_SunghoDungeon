@@ -67,5 +67,6 @@ public class Inventory : MonoBehaviour
 	public void UnEquipBtn()
 	{
 		equipUI.SetActive(false);
+		unEquipUI.SetActive(false);
 	}
 }
