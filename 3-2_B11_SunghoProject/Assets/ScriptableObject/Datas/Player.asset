@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9d6fac83f3e344fb6bdb12052b61f2, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  id: Sungho
+  id: "\uC131\uD638"
   level: 1
   gold: 20000
   attack: 30
   defensive: 20
   critical: 10
   health: 100
-  job: Warrior
+  job: "\uC804\uC0AC"
