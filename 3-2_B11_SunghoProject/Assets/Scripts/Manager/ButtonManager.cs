@@ -6,6 +6,7 @@ public class ButtonManager : MonoBehaviour
 {
 	[SerializeField] private GameObject StatusInterface;
 	[SerializeField] private GameObject ButtonInterface;
+	[SerializeField] private GameObject InventoryInterface;
 
 	public void OnStatus()
 	{
@@ -17,5 +18,17 @@ public class ButtonManager : MonoBehaviour
 	{
 		ButtonInterface.SetActive(true);
 		StatusInterface.SetActive(false);
+	}
+
+	public void OnInventory()
+	{
+		ButtonInterface.SetActive(false);
+		InventoryInterface.SetActive(true);
+	}
+
+	public void OffInventory()
+	{
+		ButtonInterface.SetActive(true);
+		InventoryInterface.SetActive(false);
 	}
 }
