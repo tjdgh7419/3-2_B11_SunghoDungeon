@@ -15,3 +15,8 @@ MonoBehaviour:
   id: Sungho
   level: 1
   gold: 20000
+  attack: 30
+  defensive: 20
+  critical: 10
+  health: 100
+  job: Warrior

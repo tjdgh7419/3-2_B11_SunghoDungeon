@@ -6,8 +6,13 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData : ScriptableObject
 {
-	[Header("Player")]
+	[Header("PlayerData")]
 	public string id;
 	public int level;
 	public int gold;
+	public int attack;
+	public int defensive;
+	public int critical;
+	public int health;
+	public string job;
 }
