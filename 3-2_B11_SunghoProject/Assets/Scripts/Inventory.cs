@@ -13,8 +13,10 @@ public class Inventory : MonoBehaviour
 	public ItemSlotUI[] uiSlot;
 	public ItemSlot[] slots;
 	public static Inventory instance;
+	public GameObject equipUI;
+	public GameObject unEquipUI;
 
-
+	int idx = 0;
 	private void Awake()
 	{
 		instance = this;
@@ -38,11 +40,32 @@ public class Inventory : MonoBehaviour
 
 	public void SelectItem(int index)
 	{
-		if (uiSlot[index].EquipVal.activeSelf)
+		if (uiSlot[index].equipVal.activeSelf)
 		{
-			uiSlot[index].EquipVal.SetActive(false);
+			uiSlot[index].equipVal.SetActive(false);
 			return;
 		}
-		uiSlot[index].EquipVal.SetActive(true);
+		uiSlot[index].equipVal.SetActive(true);
+	}
+
+	public void EquipBtn(int index)
+	{
+		if (uiSlot[index].equipVal.activeSelf)
+		{
+			unEquipUI.SetActive(true);
+		}
+		idx = index;
+		equipUI.SetActive(true);
+	}
+
+	public void OnEquipBtn()
+	{
+		SelectItem(idx);
+		equipUI.SetActive(false);
+		unEquipUI.SetActive(false);
+	}
+	public void UnEquipBtn()
+	{
+		equipUI.SetActive(false);
 	}
 }

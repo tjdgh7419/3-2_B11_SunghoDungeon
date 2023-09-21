@@ -8,6 +8,11 @@ public class ButtonManager : MonoBehaviour
 	[SerializeField] private GameObject ButtonInterface;
 	[SerializeField] private GameObject InventoryInterface;
 
+	public static ButtonManager Instance;
+	private void Awake()
+	{
+		Instance = this;
+	}
 	public void OnStatus()
 	{
 		ButtonInterface.SetActive(false);
@@ -31,4 +36,5 @@ public class ButtonManager : MonoBehaviour
 		ButtonInterface.SetActive(true);
 		InventoryInterface.SetActive(false);
 	}
+
 }

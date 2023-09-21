@@ -9,12 +9,16 @@ public class ItemSlotUI : MonoBehaviour
 	public Button button;
 	public Image icon;
 	public GameObject iconVal;
-	public GameObject EquipVal;
+	public GameObject equipVal;
 	public ItemData itemData;
 	public int index;
+	
 
-	public void OnButtonClick()
-	{	
-		Inventory.instance.SelectItem(index);
-	}	
+
+
+	public void EquipClick()
+	{
+		Inventory.instance.EquipBtn(index);
+	}
+	
 }
