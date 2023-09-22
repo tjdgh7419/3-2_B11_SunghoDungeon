@@ -33,19 +33,24 @@ URL : [B11 - 해찬 없는 해찬조 (notion.site)](https://teamsparta.notion.si
 
 ### 3. 게임 화면
 플레이어 정보와 골드를 확인할 수 있습니다.
+
 캐릭터는 애니메이션이 적용돼있습니다.
+
 Status 버튼과 Inventory버튼으로 기능에 진입할 수 있습니다.
 ![idle](https://github.com/tjdgh7419/3-2_B11_SunghoDungeon/assets/70570791/5215fcdf-d238-4053-a6da-bc4291ba1874)
 
 ### 4. 스테이터스
 Status 버튼을 누르면 플레이어의 스테이터스를 볼 수 있습니다. 
+
 공격, 방어력, 체력, 치명타를 확인할 수 있습니다.
 
 ![image](https://github.com/tjdgh7419/3-2_B11_SunghoDungeon/assets/70570791/1561e4bb-b842-4fa2-b132-2bbfa32e12ac)
 
 ### 5. 인벤토리
 현재 가지고 있는 장비를 확인할 수 있습니다.
+
 장비의 장착/해제가 가능합니다.
+
 장착/해제를 하기 전 기능에 관한 경고팝업이 나타납니다.
 
 ![image](https://github.com/tjdgh7419/3-2_B11_SunghoDungeon/assets/70570791/c733fd3d-d838-42a3-9f47-c0eac5d37b46)
