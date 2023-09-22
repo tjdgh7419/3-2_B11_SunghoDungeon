@@ -29,6 +29,8 @@ URL : [B11 - 해찬 없는 해찬조 (notion.site)](https://teamsparta.notion.si
 ### 2. 로그인 
 이름을 입력하여 게임에 진입할 수 있습니다.
 
+이름을 입력하지 않으면 게임에 진입할 수 없습니다.
+
 ![start1](https://github.com/tjdgh7419/3-2_B11_SunghoDungeon/assets/70570791/095326a4-f1ec-4476-b07e-992514fe61cd)
 
 ### 3. 게임 화면
