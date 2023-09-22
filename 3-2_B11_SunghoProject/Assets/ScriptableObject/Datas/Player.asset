@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e9d6fac83f3e344fb6bdb12052b61f2, type: 3}
-  m_Name: Player
+  m_Name: 
   m_EditorClassIdentifier: 
-  id: "\uC131\uD638"
+  id: 
   level: 1
   gold: 20000
   attack: 30

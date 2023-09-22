@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LoadMainScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private const string Name = "PLAYER_NAME";
+	private string name = null;
+	public InputField inputTxt;
 
-    // Update is called once per frame
-    void Update()
+	private void Update()
+	{
+		name = inputTxt.GetComponent<InputField>().text;
+		PlayerPrefs.SetString(Name, name);
+	}
+	public void LoadMain()
     {
-        
+		SceneManager.LoadScene("MainScene");
     }
 }
