@@ -9,15 +9,11 @@ public class LoadMainScene : MonoBehaviour
     private const string Name = "PLAYER_NAME";
 	private string name = null;
 	[SerializeField] private InputField inputTxt;
-
-	private void Update()
-	{
-	
-	}
 	public void LoadMain()
     {
 		name = inputTxt.text;
 		PlayerPrefs.SetString(Name, name);
+
 		if (name != "")
 		{
 			SceneManager.LoadScene("MainScene");
