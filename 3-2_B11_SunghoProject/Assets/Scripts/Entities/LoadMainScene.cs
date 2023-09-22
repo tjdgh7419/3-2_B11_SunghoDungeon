@@ -17,6 +17,9 @@ public class LoadMainScene : MonoBehaviour
 	}
 	public void LoadMain()
     {
-		SceneManager.LoadScene("MainScene");
+		if (name != "")
+		{
+			SceneManager.LoadScene("MainScene");
+		}
     }
 }
