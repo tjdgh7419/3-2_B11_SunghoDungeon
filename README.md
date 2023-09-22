@@ -21,6 +21,7 @@ URL : [B11 - 해찬 없는 해찬조 (notion.site)](https://teamsparta.notion.si
 ## :clipboard: 구현 목록
 ### 1. 시작화면
 게임을 실행하면 처음으로 나오는 화면입니다. 
+
 이름을 입력할 수 있습니다.
 
 ![image](https://github.com/tjdgh7419/3-2_B11_SunghoDungeon/assets/70570791/76239a4d-2615-4fc8-b1b5-ec8881f7e78d)
